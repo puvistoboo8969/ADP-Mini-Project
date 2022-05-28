@@ -34,7 +34,7 @@
         <ul class="navbar-nav ms-auto">
 
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" >Budget</a>
@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-12">
-                        <button type="button" name="Expence-button" class="Budget-Buttons-expence" data-bs-toggle="collapse" data-parent="#myGroup" data-bs-target="#Expence-collapse"  aria-expanded="false" aria-controls="Expence-collapse"><h3>EXPENCE</h3></button>
+                        <button type="button" name="Expence-button" class="Budget-Buttons-expence" data-bs-toggle="collapse" data-parent="#myGroup" data-bs-target="#Expence-collapse"  aria-expanded="false" aria-controls="Expence-collapse"><h3>EXPENSE</h3></button>
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
 
                 <!-- income tab -->
                 <div class="collapse" id="Income-collapse" data-bs-parent="#myGroup">
-                      <form name="income-form">
+                      <form name="income-form" id="income-form">
                             <h2>INCOME</h2>
 
 
@@ -84,7 +84,7 @@
                               </div>
 
                               <div class="col-lg-6 col-md-12">
-                                  <input type="text" name="Income-amt" placeholder="Income Amount" class="input-text input-income-text">
+                                  <input type="text" name="Income-amt" placeholder="Income Amount" class="input-text input-income-text" required>
                               </div>
                             </div>
                             <!-- end of row 1 -->
@@ -186,7 +186,7 @@
                 <!-- Expence tab -->
                 <div class="collapse" id="Expence-collapse" data-bs-parent="#myGroup">
 
-                    <form name="expence-form">
+                    <form name="expence-form" id="income-form">
                           <h2>EXPENCE</h2>
 
                           <!-- start of row 1 -->
@@ -348,13 +348,49 @@
               <div class="row">
                 <div class="col-lg-7 col-md-12">
 
+                    <h2>Income-Expense Distribution: </h2>
+                    <!-- progress bar -->
+
+                    <div class="progress">
+                        <div class="progress-bar progress-green-color" role="progressbar" style="width: 50%"  id = "Income-bar"></div>
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" id="Expence-bar"></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-6">
+                          <h3> Income: <h2 id="income_perc">50%</h2></h3>
+                        </div>
+
+                        <div class="col-6">
+                          <h3>Expense: <h2 id="expense_perc">50%</h2> </h3>
+                        </div>
+
+                    </div>
 
                 </div>
 
                 <div class="col-lg-5 col-md-12">
                     <div class="History" id="history">
-                        <h2>HISTORY</h2>
+                        <h2>HISTORY</h2><br>
+                        <Table id="hist-table">
+                          <tr>
 
+                                <th>Type</th>
+
+                                <th>Mode</th>
+
+                                <th>Amount</th>
+
+                                <th>Date</th>
+
+                                <th>Time</th>
+
+                          <tr>
+                          <tr>
+
+                          </tr>
+                        </table>
 
                     </div>
 

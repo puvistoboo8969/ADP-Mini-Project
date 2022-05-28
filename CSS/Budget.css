@@ -145,3 +145,28 @@
   opacity: 0.8;
   border-radius: 20px;
 }
+
+table{
+  background-color: #D2042D;
+  width: 95%;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+
+td{
+  font-size: 20px;
+}
+
+
+/* progress bar */
+.progress{
+  margin: auto 5% auto;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.progress-green-color{
+    background-color: 	#0BDA51;
+}
