@@ -1,0 +1,147 @@
+#NavBar{
+  background-image: url("../Images/Main_Page_Welcome_img.jpg");
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  padding:0 2% 0 2%;
+}
+
+.budget-core-content{
+  background-image: url("../Images/Wood_backgroiund_image.png");
+  color: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 2%;
+  text-shadow: 2px 2px 5px #6E260E;
+}
+
+#Budget-core{
+    margin: 5% 8%;
+    text-align: center;
+}
+
+.input-text{
+
+  border-width: 3px;
+  padding: 1%;
+  width:40%;
+  height: 70%;
+  border-radius: 10px;
+  border:none;
+  box-shadow: 2px 2px 5px #6E260E;
+}
+
+.Budget-Buttons-income{
+  size:100%;
+  padding: 8%;
+  border-color: #00ab66;
+  border-width: 10px;
+  color: White;
+  background-color: #00ab66;
+  border-radius: 5%;
+  border-style: solid;
+  box-shadow: 2px 2px 5px #6E260E;
+  width: 70%;
+}
+
+.Budget-Buttons-income:hover{
+  background-color: 		#F28C28;
+  border-color: 		#F28C28;
+  box-shadow: 0px 0px 10px 2px 	#F28C28;
+  transition: 0.4s;
+  text-shadow: 1px 1px 1px;
+}
+
+.Budget-Buttons-expence{
+  size:100%;
+  padding: 8%;
+  border-color: #C41E3A;
+  color: White;
+  background-color: #C41E3A;
+  border-radius: 5%;
+  border-width: 10px;
+  border-style: solid;
+    width: 70%;
+}
+
+.Budget-Buttons-expence:hover{
+  background-color: 		#880808;
+  border-color: 		#880808;
+  box-shadow: 0px 0px 8px 1px #880808;
+  transition: 0.4s;
+}
+
+.input-income-text, .input-expence-text{
+  width: 70%;
+  height: 75%;
+  background-color:	#FF8C00;
+  opacity: 0.9;
+  color: black;
+  font-size: 32px;
+}
+
+
+
+#Income-collapse, #Expence-collapse{
+  background-color: #CD853F;
+  opacity: 0.8;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.checkbox-des{
+  background-color: #FF8C00;
+  border-radius: 15px;
+  padding: 5%;
+  padding-top: 8%;
+  width: 80%;
+  font-size: 30px;
+}
+
+.checkbox-des:hover{
+  box-shadow: 0px 0px 8px 4px  #E26310;
+  background-color: #E26310;
+}
+
+.radio-label{
+  font-size: 30px;
+}
+
+/* hide radio button */
+.isHidden {
+  display: none;
+}
+
+/* checking radio */
+.radio:checked + .checkbox-des{
+  background-color: #E26310;
+}
+
+.row-sm-margin{
+  margin: 1%;
+}
+
+
+
+
+/* publish buttons */
+.Budget-Buttons-publish{
+  size:40%;
+  padding: 1%;
+  border-color: #00ab66;
+  border-width: 10px;
+  color: White;
+  background-color: #00ab66;
+  border-radius: 5%;
+  border-style: solid;
+  box-shadow: 2px 2px 5px #6E260E;
+  width: 40%;
+}
+
+/* history tab */
+.History{
+  background-color: 	#FFA500;
+  opacity: 0.8;
+  border-radius: 20px;
+}
